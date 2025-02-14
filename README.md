@@ -6,9 +6,9 @@ A Back-End developer and tech enthusiast from **Ho Chi Minh City, Viet Nam**.
 ---
 
 ### 🌱 **Tech Stack**
-- 🖥️ Back-End: **.NET Core**, **Java**, **C#**  
-- 🌐 Front-End: **HTML**, **React.js**, **JavaScript**  
-- 🛠️ Other Tools: **Git**, **Azure DevOps**, **SQL Server**  , **VPS Sever**  , **My SQL**  
+- 🖥️ Back-End: **.NET Core**, **.NET Core API**, **C#**, **Java**, **JavaSpringBoot**, **Java**,
+- 🌐 Front-End: **HTML**, **React.js**, **JavaScript**, **CSS**  
+- 🛠️ Other Tools: **Git**, **Azure DevOps**, **SQL Server**  , **VPS Sever**  , **My SQL**, **Google Cloud** 
 
 ---
 
