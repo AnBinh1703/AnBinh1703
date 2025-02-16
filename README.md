@@ -1,8 +1,13 @@
 # Hi 👋, I'm Dương Bình An (AnBinh1703)  
 
-A Back-End developer and tech enthusiast from **Ho Chi Minh City, Viet Nam**.  
-✍ I'm currently a student at **FPT University (FPTU)**.  
+I am a passionate Full-Stack Developer with hands-on experience working on realistic academic projects during my studies at FPT University. My projects focused on event management, student collaboration platforms, and e-commerce, utilizing React.js, ASP.NET Core, SQL Server, Firebase, and Docker.
 
+🚀 Key Skills:
+
+Full-Stack development with React & .NET
+API development, database management, and performance optimization
+Deploying and maintaining systems on VPS and Docker
+Strong problem-solving, logical thinking, and teamwork skills
 ---
 
 ### 🌱 **Tech Stack**
