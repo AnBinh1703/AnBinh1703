@@ -21,7 +21,7 @@ Strong problem-solving, logical thinking, and teamwork skills
  [![Gmail](https://img.shields.io/badge/-Gmail-red?style=flat-square&logo=gmail)](mailto:dan1314705@gmail.com)  
 [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat-square&logo=github)](https://github.com/AnBinh1703)  
 [![Facebook](https://img.shields.io/badge/-Facebook-blue?style=flat-square&logo=facebook)](https://www.facebook.com/heens.1703/)
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedIn)](https://www.linkedin.com/in/duongbinhan-dev/)]
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedIn)](https://www.linkedin.com/in/duongbinhan-dev/)
 
 
 ---
