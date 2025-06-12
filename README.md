@@ -289,15 +289,5 @@
 ---
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=AnBinh1703&label=Profile%20Views&color=2E9EF7&style=for-the-badge" />
-  <img src="https://img.shields.io/github/followers/AnBinh1703?label=Followers&style=for-the-badge&color=0A66C2&logo=github" />
-  <img src="https://img.shields.io/github/stars/AnBinh1703?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&color=1E90FF&logo=github" />
-  <img src="https://img.shields.io/badge/Made%20with-💙-blue?style=for-the-badge" />
-</div>
-
----
-
-
-<div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,100:0A66C2&height=100&section=footer" />
 </div>
