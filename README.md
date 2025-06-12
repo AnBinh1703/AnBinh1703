@@ -239,16 +239,6 @@
 
 ---
 
-## 🐍 My Contribution Journey
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/AnBinh1703/AnBinh1703/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/AnBinh1703/AnBinh1703/output/github-contribution-grid-snake.svg">
-  <img alt="My github contribution grid snake animation" src="https://raw.githubusercontent.com/AnBinh1703/AnBinh1703/output/github-contribution-grid-snake.svg">
-</picture>
-
----
-
 ## 🤝 Connect With Me
 
 <div align="center">
