@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,100:0A66C2&height=200&section=header&text=AnnWym%20Maris&fontSize=40&fontAlignY=35&animation=twinkling&fontColor=ffffff" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,100:0A66C2&height=200&section=header&text=AnnWyn%20Maris&fontSize=40&fontAlignY=35&animation=twinkling&fontColor=ffffff" />
 </div>
 
 <h1 align="center">👋 Hi, I'm Binh An (AnnWym Maris)</h1>
