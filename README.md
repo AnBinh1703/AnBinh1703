@@ -1,224 +1,145 @@
-<!-- ================= HEADER ================= -->
+<!-- ===================================================== -->
+<!-- GitHub Profile README — Duong Binh An                 -->
+<!-- Target: AnBinh1703/AnBinh1703                         -->
+<!-- Branch: profile/cv-github-refresh                     -->
+<!-- ===================================================== -->
+
 <div align="center">
-  <img 
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0A66C2,100:2E9EF7&height=220&section=header&text=Duong%20Binh%20An&fontSize=44&fontAlignY=38&animation=fadeIn&fontColor=ffffff" 
+
+# Duong Binh An
+
+**Software Engineer &nbsp;·&nbsp; Backend & Full-Stack &nbsp;·&nbsp; Enterprise Systems &nbsp;·&nbsp; Applied AI**
+
+Ho Chi Minh City, Vietnam
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/duongbinhan-dev/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/AnBinh1703)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:andbdev1703@gmail.com)
+
+</div>
+
+---
+
+## About Me
+
+I build backend systems and full-stack applications, currently focused on enterprise logistics platforms at **SP-ITC (Saigon Port)** — developing container tracking and freight invoicing services using **.NET, React, and SQL Server**.
+
+My technical strengths are in **backend API design**, **service integration**, and **system reliability**. I have experience bridging legacy systems with modern .NET services, containerising deployments with Docker, and working within Agile teams.
+
+I am developing a growing applied interest in **machine learning**, having completed projects in computer vision (medical imaging classification) and fraud analytics (MLOps-grade fraud detection system with FastAPI and MLflow).
+
+---
+
+## Core Expertise
+
+| Area | Technologies |
+|---|---|
+| **Backend Engineering** | C#, ASP.NET Core (.NET 6/8), REST APIs, Entity Framework Core, PHP |
+| **Frontend Development** | React, Next.js, JavaScript (ES6+), TypeScript |
+| **Database & Integration** | SQL Server, MySQL, PostgreSQL, MongoDB, Redis, Firebase |
+| **DevOps & Operations** | Docker, Linux (VPS/Ubuntu), Git, GitHub Actions, Nginx |
+| **Applied AI** | Python, PyTorch, scikit-learn, FastAPI, MLflow |
+
+---
+
+## Professional Experience
+
+### Software Engineer (Full-Stack) — SP-ITC, Saigon Port
+*Mar 2025 – Present*
+
+Building enterprise backend services for container tracking and freight invoicing. Working with ASP.NET Core, C#, SQL Server, React/Next.js, and Docker on Linux VPS. Integrating PHP-based legacy components with modern .NET APIs.
+
+### .NET Developer Intern — AmazingTech
+*Sep 2023 – Dec 2023*
+
+Implemented backend features using ASP.NET Core in an Agile/Scrum team. Resolved defects through structured debugging and unit testing.
+
+### IT Support Specialist — FPT University
+*Nov 2021 – Aug 2023*
+
+Technical support for 1,500+ students and staff. Built automation scripts for IT administration and conducted training for IT club members.
+
+---
+
+## Featured Projects
+
+### [Real-Time Banking Fraud Detection & Decision Support System](https://github.com/AnBinh1703/Banking_Transaction_Fraud_Detection_Decision_Support_System)
+
+**Problem:** Support banking analysts in identifying and prioritising suspicious transactions from high-volume transaction streams.
+
+**Approach:** Full-stack fraud analytics platform combining ML risk scoring (classification model with configurable decision thresholds), a FastAPI service layer, and an analyst case-management workflow with case status tracking and timeline history.
+
+**Stack:** Python · FastAPI · scikit-learn · MLflow · Prometheus · Grafana · Docker Compose
+
+**My contribution:** Project lead and main author; designed system architecture, built all API layers, implemented MLOps pipeline, set up monitoring and containerised deployment.
+
+**Status:** Academic group project; production-quality architecture with working Swagger API, Grafana dashboards, and Docker Compose deployment.
+
+---
+
+### [Medical Chest X-Ray Classification: ViT vs. CNN/ResNet](https://github.com/AnBinh1703/ViT-Chest-Xray)
+
+**Problem:** Evaluate modern transformer-based architectures against conventional CNNs for multi-label medical image classification.
+
+**Approach:** Comparative study of CNN, ResNet-50, and Vision Transformer (ViT) on the NIH ChestX-ray14 dataset (112,120 images, 14 disease labels). Implemented patient-level train/test splits to prevent label leakage. Config-driven training with YAML inheritance.
+
+**Stack:** Python · PyTorch · torchvision
+
+**My contribution:** Solo research project; built full codebase including data pipeline, model implementations, training scaffold, and experiment notebooks.
+
+**Status:** Research/educational project.
+
+---
+
+### Camera Rental Services Platform
+
+**Problem:** Connect camera equipment owners with renters via a managed marketplace.
+
+**Approach:** Peer-to-peer rental platform with booking flow, user authentication, and real-time data via Firebase.
+
+**Stack:** React · ASP.NET Core · Firebase · Docker
+
+---
+
+### University Event Management & Ticketing System
+
+**Problem:** Manage university events end-to-end, from registration to sponsor tracking and payments.
+
+**Approach:** Full event lifecycle system with online ticketing and VNPay payment integration.
+
+**Stack:** React · ASP.NET Core · SQL Server · VNPay
+
+---
+
+### UniProjectHub — Student Project Collaboration Platform
+
+**Problem:** Provide a structured space for university students to organise, track, and share academic projects.
+
+**Stack:** ASP.NET Core · SQL Server · Docker
+
+---
+
+## Education
+
+**Bachelor of Science in Software Engineering**  
+FPT University, Ho Chi Minh City
+
+Relevant coursework: Software Architecture · Database Systems · Algorithms & Data Structures · Machine Learning · Data Mining
+
+---
+
+## GitHub Activity
+
+<div align="center">
+  <img
+    src="https://github-readme-streak-stats.herokuapp.com?user=AnBinh1703&theme=github-dark-blue&hide_border=true&border_radius=8"
+    width="75%"
+    alt="GitHub contribution streak"
   />
 </div>
 
-<h1 align="center">Software Engineer</h1>
-<h3 align="center">
-  Full-Stack (.NET / React) · Backend Systems · Logistics & Enterprise Platforms
-</h3>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1200&color=2E9EF7&center=true&vCenter=true&width=900&lines=ASP.NET+Core+%7C+React+%7C+Next.js+%7C+SQL+Server;Enterprise+Systems+%26+Logistics+Platforms;Clean+Architecture+%7C+Security+%7C+Maintainability;Building+software+that+lasts" />
-</p>
-
-<p align="center">
-  <strong>Ho Chi Minh City, Vietnam</strong> · Backend-oriented Full-Stack Engineer  
-  <br/>
-  Focused on <em>clarity, responsibility, and long-term system quality</em>
-</p>
-
----
-
-<!-- ================= QUICK FACTS ================= -->
-## 🧭 Quick Facts
-
-<div align="center">
-  <table>
-    <tr>
-      <td><strong>Name</strong></td>
-      <td>Duong Binh An</td>
-    </tr>
-    <tr>
-      <td><strong>Nickname</strong></td>
-      <td>Ann (social)</td>
-    </tr>
-    <tr>
-      <td><strong>Role</strong></td>
-      <td>Full-Stack / Backend Engineer</td>
-    </tr>
-    <tr>
-      <td><strong>Current Company</strong></td>
-      <td>SP-ITC (Saigon Port)</td>
-    </tr>
-    <tr>
-      <td><strong>Education</strong></td>
-      <td>BSc Software Engineering – FPT University</td>
-    </tr>
-  </table>
-</div>
-
----
-
-<!-- ================= PHILOSOPHY ================= -->
-## 💭 Engineering Philosophy
-
-> **Discipline creates freedom.**  
-> **Simplicity creates clarity.**  
-> **Software is a responsibility, not just code.**
-
-- Clean architecture over clever hacks  
-- Maintainability over short-term speed  
-- Security and correctness as defaults  
-
----
-
-<!-- ================= GITHUB STATS ================= -->
-## 📊 GitHub Activity
-
-<div align="center">
-  <img 
-    src="https://github-readme-streak-stats.herokuapp.com?user=AnBinh1703&theme=tokyonight&hide_border=true&border_radius=12" 
-    width="80%"
-  />
-</div>
-
-<div align="center">
-  <img 
-    src="https://github-readme-activity-graph.vercel.app/graph?username=AnBinh1703&theme=react-dark&hide_border=true&area=true&color=2E9EF7&line=0A66C2" 
-    width="100%"
-  />
-</div>
-
----
-
-<!-- ================= SKILLS ================= -->
-## 🧰 Technology Stack
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="25%">
-        <strong>Frontend</strong><br/><br/>
-        <img src="https://skillicons.dev/icons?i=react,vue,nextjs,js,ts,tailwind" />
-      </td>
-      <td align="center" width="25%">
-        <strong>Backend</strong><br/><br/>
-        <img src="https://skillicons.dev/icons?i=cs,dotnet,java,php,nodejs,spring" />
-      </td>
-      <td align="center" width="25%">
-        <strong>Database</strong><br/><br/>
-        <img src="https://skillicons.dev/icons?i=sqlserver,mysql,postgresql,mongodb,redis,firebase" />
-      </td>
-      <td align="center" width="25%">
-        <strong>DevOps & Tools</strong><br/><br/>
-        <img src="https://skillicons.dev/icons?i=docker,git,linux,azure,vscode,postman" />
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
-<!-- ================= EXPERIENCE ================= -->
-## 💼 Experience
-
-### **SP-ITC – Saigon Port (International Container Terminal)**  
-**Full-Stack Developer** · *Mar 2025 – Present*
-
-- Developed enterprise logistics systems for container tracking & invoicing  
-- Backend with **ASP.NET Core, C#, PHP, SQL Server**  
-- Frontend with **React / Next.js**, refactoring legacy Webpack modules  
-- Dockerized deployments on Linux VPS  
-- Improved system stability toward **99.9% uptime**
-
----
-
-### **AmazingTech**  
-**.NET Developer Intern** · *Sep 2023 – Dec 2023*
-
-- Implemented backend features using ASP.NET Core  
-- Fixed defects through structured debugging & testing  
-- Worked in Agile/Scrum teams
-
----
-
-### **FPT University**  
-**IT Support Specialist** · *Nov 2021 – Aug 2023*
-
-- Supported 1,500+ users on internal systems  
-- Built automation tools and reduced downtime  
-- Conducted technical training for IT club members
-
----
-
-<!-- ================= PROJECTS ================= -->
-## 🚀 Selected Projects
-
-<div align="center">
-  <table>
-    <tr>
-      <td width="50%">
-        <h4>📦 Camera Services Platform</h4>
-        <p>
-          Rental platform connecting camera owners & renters  
-          <br/>
-          <strong>Tech:</strong> React · ASP.NET Core · Firebase · Docker
-        </p>
-      </td>
-      <td width="50%">
-        <h4>🎓 UniProjectHub</h4>
-        <p>
-          Student collaboration & project management system  
-          <br/>
-          <strong>Tech:</strong> ASP.NET Core · SQL Server · Docker
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%">
-        <h4>🎟 Event Management System</h4>
-        <p>
-          Ticketing & sponsor tracking for university events  
-          <br/>
-          <strong>Tech:</strong> React · ASP.NET Core · VNPay
-        </p>
-      </td>
-      <td width="50%">
-        <h4>🔐 Security & Automation</h4>
-        <p>
-          Automation tools & security practice projects  
-          <br/>
-          <strong>Focus:</strong> Secure coding · DevSecOps basics
-        </p>
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
-<!-- ================= CURRENT FOCUS ================= -->
-## 🎯 Current Focus
-
-- Enterprise backend architecture (.NET)  
-- Cloud-native systems & Docker  
-- Secure coding & system hardening  
-- Automation & internal tooling  
-
----
-
-<!-- ================= CONTACT ================= -->
-## 🤝 Connect
-
-<div align="center">
-  <a href="mailto:andbdev1703@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/duongbinhan-dev/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://github.com/AnBinh1703">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</div>
-
 ---
 
 <div align="center">
-  <img 
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0A66C2,100:2E9EF7&height=120&section=footer" 
-  />
+  <sub>Open to backend, full-stack, and software engineering roles · Available for collaboration</sub>
 </div>
