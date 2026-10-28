@@ -1,0 +1,185 @@
+%% ============================================================
+%% resume.tex -- Duong Binh An | Software Engineer
+%% Engine: XeLaTeX (MiKTeX 26.1)
+%% Paper: A4 | Max: 2 pages | ATS-friendly single-column
+%% Build: xelatex resume.tex
+%% ============================================================
+\documentclass[10.5pt,a4paper]{article}
+
+%% Core packages
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper, top=1.2cm, bottom=1.2cm, left=1.7cm, right=1.7cm]{geometry}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{parskip}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage[hidelinks,
+            pdfauthor={Duong Binh An},
+            pdftitle={Duong Binh An - Software Engineer},
+            pdfkeywords={Software Engineer, Backend, Full-Stack, ASP.NET Core, React, SQL Server, Docker, Python, FastAPI}
+            ]{hyperref}
+\usepackage{fontawesome5}
+\usepackage{tabularx}
+
+%% Typography
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+%% Colour palette
+\definecolor{primary}{RGB}{10, 102, 194}
+\definecolor{muted}{RGB}{90, 90, 90}
+\definecolor{rulecol}{RGB}{200, 215, 235}
+
+%% No page numbers
+\pagestyle{empty}
+
+%% Section styling
+\titleformat{\section}
+  {\large\bfseries\color{primary}}
+  {}{0em}{}
+  [\vspace{-4pt}\textcolor{rulecol}{\rule{\linewidth}{0.8pt}}\vspace{2pt}]
+\titlespacing{\section}{0pt}{7pt}{3pt}
+
+%% Helpers
+\newcommand{\jobtitle}[4]{%
+  \vspace{2pt}%
+  {\bfseries #1} \hfill \textcolor{muted}{\small #3\ifx#4\empty\else\ -- #4\fi}\\%
+  \textcolor{muted}{\small\itshape #2}%
+  \vspace{2pt}%
+}
+\newcommand{\projrow}[2]{%
+  \vspace{2pt}%
+  {\bfseries #1}%
+  \ifx#2\empty\else\ \hfill \textcolor{muted}{\small\itshape #2}\fi%
+  \vspace{1pt}%
+}
+
+\setlist[itemize]{leftmargin=1.2em, itemsep=0pt, parsep=0pt, topsep=1pt, label=\textbullet}
+
+%% ============================================================
+\begin{document}
+
+%% HEADER
+\begin{center}
+  {\Huge\bfseries\color{primary} Duong Binh An}\\[4pt]
+  {\large\textcolor{muted}{Software Engineer $\cdot$ Backend \& Full-Stack $\cdot$ Enterprise Systems}}\\[6pt]
+  \small
+  \faMapMarker*\ Ho Chi Minh City, Vietnam
+  \quad\textcolor{rulecol}{$|$}\quad
+  \faEnvelope\ \href{mailto:andbdev1703@gmail.com}{andbdev1703@gmail.com}
+  \quad\textcolor{rulecol}{$|$}\quad
+  \faLinkedin\ \href{https://www.linkedin.com/in/duongbinhan-dev/}{duongbinhan-dev}
+  \quad\textcolor{rulecol}{$|$}\quad
+  \faGithub\ \href{https://github.com/AnBinh1703}{AnBinh1703}
+\end{center}
+
+\vspace{2pt}
+\textcolor{rulecol}{\rule{\linewidth}{1pt}}
+\vspace{4pt}
+
+%% PROFESSIONAL SUMMARY
+\section{Professional Summary}
+
+Software Engineer with experience in backend and full-stack development, specialising in enterprise
+logistics systems and service integration using .NET and React. Currently building container-tracking
+and invoicing platforms at SP-ITC (Saigon Port), with a growing applied interest in machine learning
+through academic and personal projects in computer vision and fraud analytics. Committed to clean
+architecture, maintainable systems, and practical engineering.
+
+%% TECHNICAL SKILLS
+\section{Technical Skills}
+
+\begin{tabularx}{\linewidth}{@{} >{\bfseries\color{muted}}p{2.4cm} X @{}}
+  Backend       & C\#, ASP.NET Core (.NET 6/8), REST APIs, Entity Framework Core, PHP \\[2pt]
+  Frontend      & React, Next.js, JavaScript (ES6+), TypeScript, HTML5, CSS3 \\[2pt]
+  Databases     & SQL Server, MySQL, PostgreSQL, MongoDB, Redis, Firebase \\[2pt]
+  DevOps        & Docker, Linux (VPS/Ubuntu), Git, GitHub Actions, Nginx \\[2pt]
+  Applied AI    & Python, PyTorch, scikit-learn, FastAPI, MLflow, Jupyter Notebook \\[2pt]
+  Methods       & Clean Architecture, Agile/Scrum, RESTful API design, Containerisation \\
+\end{tabularx}
+
+%% PROFESSIONAL EXPERIENCE
+\section{Professional Experience}
+
+\jobtitle{Software Engineer (Full-Stack)}{SP-ITC -- Saigon Port (International Container Terminal)}{Mar 2025}{Present}
+\begin{itemize}
+  \item Developed enterprise backend services for container tracking and freight invoicing using \textbf{ASP.NET Core, C\#, and SQL Server}, supporting core port logistics operations.
+  \item Refactored legacy frontend Webpack modules into a structured \textbf{React/Next.js} application, improving code maintainability and reducing front-end integration friction.
+  \item Bridged \textbf{PHP}-based legacy components with new .NET APIs, enabling unified data flow across heterogeneous system layers.
+  \item Containerised application services using \textbf{Docker} on Linux VPS, standardising the deployment pipeline and reducing environment-specific failures.
+  \item Diagnosed and resolved production issues, contributing to improved system stability and reduced unplanned downtime.
+\end{itemize}
+
+\jobtitle{.NET Developer Intern}{AmazingTech}{Sep 2023}{Dec 2023}
+\begin{itemize}
+  \item Implemented backend features for assigned modules using \textbf{ASP.NET Core}, following established architecture and coding standards.
+  \item Investigated and resolved defects through structured debugging and unit testing, improving sprint-level code reliability.
+  \item Collaborated within an \textbf{Agile/Scrum} team, participating in sprint planning, stand-ups, and code reviews.
+\end{itemize}
+
+\jobtitle{IT Support Specialist}{FPT University}{Nov 2021}{Aug 2023}
+\begin{itemize}
+  \item Provided technical support for 1,500+ students and staff across university internal systems, covering hardware, software, and network issues.
+  \item Developed automation scripts to reduce manual IT administration tasks and improve support response time.
+  \item Conducted technical training for IT club members, improving peer competency in system administration and troubleshooting.
+\end{itemize}
+
+%% SELECTED PROJECTS
+\section{Selected Projects}
+
+\projrow{Real-Time Banking Fraud Detection and Decision Support System}{\href{https://github.com/AnBinh1703/Banking_Transaction_Fraud_Detection_Decision_Support_System}{github.com/AnBinh1703} [Group project -- lead]}
+\begin{itemize}
+  \item Designed and led a full-stack fraud analytics platform combining ML risk scoring, policy-based decision routing, and analyst case-management workflow.
+  \item Built \textbf{FastAPI} services for transaction scoring, alert creation, and case lifecycle management; integrated \textbf{MLflow} for experiment tracking and model versioning.
+  \item Implemented observability with \textbf{Prometheus} metrics and \textbf{Grafana} dashboards; deployed the full system via \textbf{Docker Compose}.
+  \item Stack: Python, FastAPI, scikit-learn, MLflow, Prometheus, Grafana, Docker Compose \textit{(academic project)}
+\end{itemize}
+
+\projrow{Medical Image Classification: ViT vs. CNN/ResNet}{\href{https://github.com/AnBinh1703/ViT-Chest-Xray}{github.com/AnBinh1703}}
+\begin{itemize}
+  \item Conducted comparative evaluation of CNN, ResNet-50, and Vision Transformer (ViT) for multi-label chest disease classification on the \textbf{NIH ChestX-ray14} dataset (112,120 images, 14 disease labels).
+  \item Built config-driven training scaffolding with YAML inheritance, patient-level train/test splits to prevent label leakage, and structured experiment notebooks.
+  \item Stack: Python, PyTorch, torchvision, YAML configs \textit{(research project)}
+\end{itemize}
+
+\projrow{Camera Rental Services Platform}{}
+\begin{itemize}
+  \item Built a peer-to-peer camera rental marketplace with booking, authentication, and payment integration.
+  Stack: React, ASP.NET Core, Firebase, Docker
+\end{itemize}
+
+\projrow{University Event Management \& Ticketing System}{}
+\begin{itemize}
+  \item End-to-end event system covering registration, sponsor tracking, and online payment via \textbf{VNPay}.
+  Stack: React, ASP.NET Core, SQL Server, VNPay
+\end{itemize}
+
+\projrow{UniProjectHub -- Student Project Collaboration Platform}{}
+\begin{itemize}
+  \item Collaborative platform for organising and tracking academic projects with role-based access control.
+  Stack: ASP.NET Core, SQL Server, Docker
+\end{itemize}
+
+%% EDUCATION
+\section{Education}
+
+\jobtitle{Bachelor of Science in Software Engineering}{FPT University, Ho Chi Minh City}{}{}
+\begin{itemize}
+  \item Relevant coursework: Software Architecture, Database Systems, Algorithms \& Data Structures, Machine Learning, Data Mining.
+\end{itemize}
+
+%% LANGUAGES
+\section{Languages}
+
+\textbf{Vietnamese} \textemdash\ Native \qquad
+\textbf{English} \textemdash\ Professional working proficiency
+
+\vspace{6pt}
+\begin{center}
+  \textcolor{muted}{\small\itshape References available upon request}
+\end{center}
+
+\end{document}
